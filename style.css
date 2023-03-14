@@ -1,0 +1,128 @@
+
+
+/* General custom */
+
+*{font-family: 'Shantell Sans', cursive;}
+
+:root{
+    
+    --yellow:#EECE59;
+    --blueocean: #163D5C;
+    --lightblue:#00A6FF;
+    --dark:#1D1D1D;
+    --grey:#A5A8AC;
+    
+    
+}
+
+body{
+    
+    background: #1777C7;
+
+
+
+}
+
+
+
+.back-color{
+
+    background-color: var(--lightblue);
+}
+
+h1{ 
+    
+    font-weight: 80px;
+    border:solid var(--blueocean) 3px;
+    border-radius:10px;
+    color:var(--blueocean);
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+    
+    
+    h1{
+        
+        font-size:small;
+        background-color:var(--lightblue);
+        padding-top:10px;
+        padding-bottom: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+}
+
+.form-control{
+   
+    background-color: white;
+}
+
+
+@media screen and (max-width:390px){
+
+    .form-control{
+
+        margin-top: 20px;
+    }
+}
+
+
+
+/* Button and form */
+
+.btn-custom{
+    
+    font-size: 25px;
+    font-weight: 100px;
+    border:solid var(--blueocean) 3px;
+    border-radius:10px;
+    color:var(--blueocean);
+    background-color: #00A6FF;
+    transition: 0.5s;
+    width:100%;
+    height:100px;
+}
+
+.btn-custom:hover{
+
+    border:solid var(--dark) 3px;
+    color:var(--blueocean);
+    background-color:var(--yellow);
+
+}
+
+
+/* Card contatti */
+
+
+.card-custom{
+
+ height:100px;
+ color:var(--blueocean);
+ border:solid var(--blueocean)3px;
+ border-radius: 20px;
+ background-color: var(--lightblue);
+ 
+ display: flex;
+ align-items:center;
+ justify-content: space-around;
+
+
+}
+
+.pointer{
+
+    cursor:pointer;
+}
+
+
+
+
